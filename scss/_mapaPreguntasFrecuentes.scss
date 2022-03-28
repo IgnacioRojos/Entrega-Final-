@@ -1,0 +1,34 @@
+//mapa preguntas frecuentes de la vista duda//
+
+$nombrePregunta:(
+	pregunta1: $colorPreguntaD,
+	pregunta2: $colorPreguntaD,
+	pregunta3: $colorPreguntaD,
+	pregunta4: $colorPreguntaD,
+	pregunta5: $colorPreguntaD
+);
+
+@each $preg, $valor in $nombrePregunta{
+	.#{$preg}{
+		color: $valor;
+	}
+}
+
+
+
+$respuesta:(
+	respuesta1: $colorRespuestaD,
+	respuesta2: $colorRespuestaD,
+	respuesta3: $colorRespuestaD,
+	respuesta4: $colorRespuestaD,
+	respuesta5: $colorRespuestaD
+);
+
+@each $res, $valor in $respuesta{
+	.#{$res}{
+		color:$valor;
+	}
+}
+
+
+//fin mapa preguntas frecuentes de la vista duda//

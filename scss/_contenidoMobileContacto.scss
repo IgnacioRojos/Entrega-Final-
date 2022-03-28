@@ -1,0 +1,113 @@
+// vista mobile//
+
+@media only screen and (max-width: 768px){
+
+	.body{
+		overflow-x:hidden;
+	}
+
+	.logo__telefono{
+		width: 150px;
+	}
+	.logo__email{
+		width: 150px;
+	}
+	.logo__transferencia{
+		width: 150px;
+	}
+	.logo__mercadoPago{
+		width: 250px;
+	
+	}
+
+	.titulo__mercadoPago{
+		margin-top:60px;	
+	}
+
+	.titulo__local{
+		font-size: 20px;
+	}
+
+	.titulo__pagos{
+		padding-bottom: 20px;
+	
+	}
+
+	@mixin col($colores){
+		color:$colores
+	}
+	.titulo__transferencia{
+		@include col($colorTitulosC);
+	}
+
+	.titulo__mercadoPago{
+		@include col($colorTitulosC);
+	}
+
+
+	.tarjetaTexto{
+		color:black;
+		font-size:20px;
+	}
+
+	.textoCard{
+		font-size:20px;
+	}
+
+	.tarjeta{
+		background-image: linear-gradient(to top, grey, white);
+		margin-left:10px;
+
+	}
+
+	.card{
+		background-image: linear-gradient(to top, grey, white);
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	@mixin sizes($width, $height){
+		height:$height;
+		width:$width;
+	}
+
+	.logo__transferencia{
+		@include sizes(150px, 150px);
+	}
+
+	.mapa__local{
+		@include sizes(200px, 200px);
+		margin-right:100px;
+		
+	}
+	.transition{
+		width: 150px;
+		transition: all 2s;
+	}
+	.transition:hover{
+		width: 250px;
+	}
+	.transition2{
+		width: 150px;
+		transition: all 2s;
+	}
+	.transition2:hover{
+		width: 250px;
+	}
+	img.transition3{
+		width: 150px;
+		transition: all 2s;
+	}
+	img.transition3:hover{
+		width: 250px;
+	}
+	img.transition4{
+		transition: all 2s;
+	}
+	img.transition4:hover{
+		width: 250px;
+	}
+}
+
+
+//fin vista mobile//

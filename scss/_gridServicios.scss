@@ -1,0 +1,352 @@
+// vista pc para la pestaña servicios con grid incluye su footer//
+
+*{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+@media only screen and (min-width: 1024px){
+	div.logo{
+		height: 15px;
+	}
+
+	.indexEstilo{
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"contenido"
+		"footer";
+		grid-template-columns:auto;
+		grid-auto-rows: auto auto auto;
+		overflow-x: hidden; 
+	}
+
+	.header{
+		grid-area: header;
+	}
+	.footer{
+		grid-area: footer;
+	}
+	.contenido{
+		grid-area: contenido;
+	}
+
+	.logo__pagina{
+		width: 236px;
+		height: 230px;
+	}
+
+	
+	
+	/*modifica en todas las views*/
+	div.barra_navegacion{
+		max-width: 900px;
+		background-color: grey;
+		font-size: 20px;
+		margin-bottom: 150px;
+		margin-left: 450px;
+	}
+
+	/*modifica en todas las views*/	
+	.menu_horizontal{
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal > li > a{
+		display: block;
+		padding: 15px 20px;
+		color: white;
+		text-decoration: none;
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal >li:hover{
+		background-color: black;
+	}
+
+	/*modifica en todas las views*/
+	.menu_vertical{
+		position: absolute;
+		display: none;
+		list-style: none;
+		width: 200px;
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal li:hover .menu_vertical{
+		display: block;
+	}
+
+	/*modifica en todas las views*/
+	.menu_vertical li:hover{
+		background-color: red;
+	}
+
+
+	/*modifica en todas las views*/
+	.menu_vertical li a{
+		display: block;
+		color: white;
+		text-decoration: none;
+	}
+	/*FIN GRID PARA TODAS LAS VIEWS*/
+
+
+	.contenido3{
+		display: grid;
+		grid-template-areas: 
+		"tabla titulo_note"
+		"tabla carta";
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		grid-column-gap: 20px;
+	}
+
+	.tabla{
+		grid-area: tabla;
+		margin-bottom: 163px;
+		font-size: 20px;
+		color: black;
+		border: 20px inset sandybrown;
+	}
+	.carta{
+		grid-area: carta;
+		background-image:linear-gradient(to bottom, greenyellow, whitesmoke);
+		margin-bottom: 50px;
+		margin-right: 50px;
+	}
+	.titulo_note{
+		grid-area: titulo_note;
+		font-size: 35px;
+		padding-left: 250px;
+		padding-bottom: 20px;
+		margin-bottom: 50px;
+		color: greenyellow;
+		text-decoration: underline black solid;
+	}
+
+	.pie_pagina3{
+		display: grid;
+		grid-template-areas: 
+		"imagen_whats3 titulo__footer3 titulo__footer3"
+		"texto__contacto3 texto__contacto3 texto__contacto3";
+		grid-template-columns: 250px 350px;
+		grid-template-rows: auto auto ;
+	}	
+	.imagen_whats3{
+		grid-area: imagen_whats3;
+	}
+
+	.texto__contacto3{
+		grid-area: texto__contacto3;
+		margin-left:710px;
+		font-size: 20px;
+		margin-top:10px;
+		color:$colorPiePag;
+	}
+
+	.titulo__footer3{
+		grid-area: titulo__footer3;
+		text-align: center;
+		margin-top: 40px;
+		font-size: 50px;
+		margin-right: 250px;
+		color: $colorTituloPiePag;
+	}
+	.logo_whatsapp{
+		width: 250px;
+	}
+
+
+}
+
+
+// fin vista pc para la pestaña servicios con grid incluye su footer//
+
+
+
+
+// vista mobile para la pestaña servicios con grid incluye su footer//
+
+
+@media only screen and (max-width: 768px){
+	.indexEstilo{
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"contenido"
+		"footer";
+		grid-template-columns:auto;
+		grid-auto-rows: auto auto auto;
+		 
+	}
+
+	.header{
+		grid-area: header;
+	}
+	.footer{
+		grid-area: footer;
+	}
+	.contenido{
+		grid-area: contenido;
+	}
+	.header{
+		display: grid;
+		grid-template-areas: 
+		"logo"
+		"barra_navegacion";
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+	}
+	.logo{
+		grid-area: logo;
+	}
+	.logo__pagina{
+		height: auto;
+		width: 64px
+	}
+	.barra_navegacion{
+		grid-area: barra_navegacion;
+
+	}
+
+	/*modifica en todas las views*/
+	div.barra_navegacion{
+		max-width: 319px;
+		background-color: grey;
+		font-size: 10px;
+		margin-left: 27px;
+		
+
+	}
+
+	/*modifica en todas las views*/	
+	.menu_horizontal{
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+		padding-left:0px;
+	
+
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal > li > a{
+		display: block;
+		color: white;
+		text-decoration: none;
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal >li:hover{
+		background-color: black;
+	}
+
+	/*modifica en todas las views*/
+	.menu_vertical{
+		position: absolute;
+		display: none;
+		list-style: none;
+		width: 100px;
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	/*modifica en todas las views*/
+	.menu_horizontal li:hover .menu_vertical{
+		display: block;
+	}
+
+	/*modifica en todas las views*/
+	.menu_vertical li:hover{
+		background-color: red;
+	}
+
+
+	/*modifica en todas las views*/
+	.menu_vertical li a{
+		display: none;
+		color: white;
+		text-decoration: none;
+	}
+
+
+	.contenido3{
+		display: grid;
+		grid-template-areas: 
+		"tabla"
+		"titulo_note"
+		"carta";
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto;
+
+		
+	}
+
+	.tabla{
+		grid-area: tabla;
+		margin-bottom: 42px;
+		margin-top: 40px;
+		font-size: 15px;
+		color: black;
+		border: 20px inset sandybrown;
+		margin-right: 10px;
+	}
+	.carta{
+		grid-area: carta;
+		background-image:linear-gradient(to bottom, greenyellow, whitesmoke);
+		font-size: 13px;
+		width: 20px;
+	}
+	.titulo_note{
+		grid-area: titulo_note;
+		color: greenyellow;
+		text-decoration: underline black solid;
+	}
+
+	.pie_pagina3{
+		display: grid;
+		grid-template-areas: 
+		"titulo__footer3"
+		"imagen_whats3"
+		"texto__contacto3";
+		grid-template-columns:auto;
+		grid-template-rows: auto auto auto ;
+	}	
+	.imagen_whats3{
+		grid-area: imagen_whats3;
+	}
+
+	.imagen_whats3{
+		grid-area: imagen_whats3;
+	}
+
+	.texto__contacto3{
+		grid-area: texto__contacto3;
+		padding-left:10px;
+		padding-top: 100px;
+		color:$colorPiePag;
+	}
+
+	.titulo__footer3{
+		grid-area: titulo__footer3;
+		text-align: center;
+		margin-top: 40px;
+		font-size: 30px;
+		color: $colorTituloPiePag;
+	}
+	
+	.logo_whatsapp{
+		width: 150px;
+	}
+
+
+	
+}
+
+
+// fin vista mobile para la pestaña servicios con grid incluye su footer//

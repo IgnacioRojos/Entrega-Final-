@@ -1,0 +1,43 @@
+// modificaciones a la barra de navegacio vista pc//
+
+div{
+	ul{
+		li{
+			a{
+				color: $colorLetrasBarra;
+				font-size: 20px;
+				text-decoration: underline $colorSubrayado;
+			}
+		}
+	}
+}
+
+
+//fin modificaciones a la barra de navegacio vista pc//
+
+
+
+
+
+//modificaciones a la barra de navegacio vista mobile//
+
+
+@media only screen and (max-width: 768px){
+	div{
+		ul{
+
+			li{
+				a{
+					color: $colorLetrasBarra;
+					font-size: 15px;
+					text-decoration: underline $colorSubrayado;
+				}
+			}
+		}
+	}	
+
+
+}
+
+
+//fin modificaciones a la barra de navegacio vista mobile//

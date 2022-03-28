@@ -1,0 +1,53 @@
+// vista pc//
+
+body{
+	background-image: linear-gradient(to bottom, $colorFondo, white);
+
+}
+
+.html_altura{
+	overflow-x:hidden;
+}
+
+.img-fluid{
+	width: 350px;
+}
+
+
+.texto_inicio{
+	font-size: 20px;
+	color: $colorLetrasBody;
+	margin-top: 80px;
+	padding-left:20px;
+}
+
+
+.imagen_ppp{
+	padding-left: 50px;
+}
+
+.cuadro{
+	padding-left: 120px;
+	margin-bottom: 80px;
+}
+
+div{
+	h4{
+		color: $colorOpinionN;
+	}
+}
+
+div{
+	ul{
+		li{
+			list-style:none;
+		}
+	}
+}
+
+.opiniones{
+	margin-top: 110px;
+}
+
+
+//fin vista pc//

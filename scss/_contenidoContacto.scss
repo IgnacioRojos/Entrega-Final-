@@ -1,0 +1,124 @@
+// vista pc//
+
+.body{
+	overflow-x:hidden;
+}
+
+.logo__telefono{
+	width: 231px;
+}
+.logo__email{
+	width: 234px;
+}
+.logo__transferencia{
+	width: 250px;
+}
+.logo__mercadoPago{
+	width: 250px;
+	
+}
+
+.titulo__mercadoPago{
+	margin-top:60px;	
+}
+
+.titulo__local{
+	font-size: 50px;
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.titulo__pagos{
+	padding-bottom: 20px;
+	
+}
+
+@mixin col($colores){
+	color:$colores
+}
+.titulo__transferencia{
+	@include col($colorTitulosC);
+}
+
+.titulo__mercadoPago{
+	@include col($colorTitulosC);
+}
+
+
+.tarjetaTexto{
+	color:black;
+	font-size:20px;
+}
+
+.textoCard{
+	font-size:20px;
+}
+
+.tarjeta{
+	background-image: linear-gradient(to top, grey, white);
+	
+
+
+}
+
+.card{
+	background-image: linear-gradient(to top, grey, white);
+	margin-top: 10px;
+}
+
+@mixin sizes($width, $height){
+	height:$height;
+	width:$width;
+}
+
+.logo__transferencia{
+	@include sizes(350px, 250px);
+}
+
+@mixin centro{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.mapa{
+	@include centro;
+	padding-top: 150px;
+	margin-lefht: 70px;
+
+}
+
+.titulo__local{
+	margin-right: 50px;
+}
+
+.transition{
+	width: 250px;
+	transition: all 2s;
+}
+.transition:hover{
+	width: 350px;
+}
+.transition2{
+	width: 250px;
+	transition: all 2s;
+}
+.transition2:hover{
+	width: 350px;
+}
+img.transition3{
+	width: 250px;
+	transition: all 2s;
+}
+img.transition3:hover{
+	width: 450px;
+}
+img.transition4{
+	transition: all 2s;
+}
+img.transition4:hover{
+	width: 350px;
+}
+
+
+//fin vista pc//

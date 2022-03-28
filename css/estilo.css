@@ -1,0 +1,598 @@
+body {
+  background-image: linear-gradient(to bottom, darkgrey, white); }
+
+.html_altura {
+  overflow-x: hidden; }
+
+.img-fluid {
+  width: 350px; }
+
+.texto_inicio {
+  font-size: 20px;
+  color: black;
+  margin-top: 80px;
+  padding-left: 20px; }
+
+.imagen_ppp {
+  padding-left: 50px; }
+
+.cuadro {
+  padding-left: 120px;
+  margin-bottom: 80px; }
+
+div h4 {
+  color: purple; }
+
+div ul li {
+  list-style: none; }
+
+.opiniones {
+  margin-top: 110px; }
+
+div ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline black; }
+
+@media only screen and (max-width: 768px) {
+  div ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline black; } }
+
+.titulo__footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  color: blue; }
+
+.texto__contacto {
+  padding-top: 100px;
+  color: grey; }
+
+.logo_whatsapp2 {
+  width: 250px; }
+
+@media only screen and (max-width: 768px) {
+  .titulo__footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: blue; }
+  .texto__contacto {
+    padding-top: 100px;
+    color: grey;
+    padding-left: 10px; }
+  .logo_whatsapp2 {
+    width: 150px; } }
+
+.nombre1 {
+  color: red; }
+
+.nombre2 {
+  color: grey; }
+
+.nombre3 {
+  color: red; }
+
+.nombre4 {
+  color: grey; }
+
+.opinion1 {
+  color: black; }
+
+.opinion2 {
+  color: blue; }
+
+.opinion3 {
+  color: black; }
+
+.opinion4 {
+  color: blue; }
+
+@media only screen and (max-width: 768px) {
+  .conteiner {
+    overflow-x: hidden; }
+  .img-fluid {
+    width: 150px; }
+  .texto_inicio {
+    font-size: 11px;
+    color: black;
+    padding-left: 0px; }
+  .imagen_ppp {
+    width: 150px;
+    padding-left: 5px; }
+  .cuadro {
+    padding-left: 50px;
+    margin-bottom: 80px; }
+  div h4 {
+    color: purple; }
+  div ul li {
+    list-style: none;
+    font-size: 10px; }
+  .body {
+    overflow-x: hidden; } }
+
+.body {
+  overflow-x: hidden; }
+
+.logo__telefono {
+  width: 231px; }
+
+.logo__email {
+  width: 234px; }
+
+.logo__transferencia {
+  width: 250px; }
+
+.logo__mercadoPago {
+  width: 250px; }
+
+.titulo__mercadoPago {
+  margin-top: 60px; }
+
+.titulo__local {
+  font-size: 50px;
+  margin-top: 40px;
+  padding-left: 20px; }
+
+.titulo__pagos {
+  padding-bottom: 20px; }
+
+.titulo__transferencia {
+  color: darkblue; }
+
+.titulo__mercadoPago {
+  color: darkblue; }
+
+.tarjetaTexto {
+  color: black;
+  font-size: 20px; }
+
+.textoCard {
+  font-size: 20px; }
+
+.tarjeta {
+  background-image: linear-gradient(to top, grey, white); }
+
+.card {
+  background-image: linear-gradient(to top, grey, white);
+  margin-top: 10px; }
+
+.logo__transferencia {
+  height: 250px;
+  width: 350px; }
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 150px;
+  margin-lefht: 70px; }
+
+.titulo__local {
+  margin-right: 50px; }
+
+.transition {
+  width: 250px;
+  transition: all 2s; }
+
+.transition:hover {
+  width: 350px; }
+
+.transition2 {
+  width: 250px;
+  transition: all 2s; }
+
+.transition2:hover {
+  width: 350px; }
+
+img.transition3 {
+  width: 250px;
+  transition: all 2s; }
+
+img.transition3:hover {
+  width: 450px; }
+
+img.transition4 {
+  transition: all 2s; }
+
+img.transition4:hover {
+  width: 350px; }
+
+@media only screen and (max-width: 768px) {
+  .body {
+    overflow-x: hidden; }
+  .logo__telefono {
+    width: 150px; }
+  .logo__email {
+    width: 150px; }
+  .logo__transferencia {
+    width: 150px; }
+  .logo__mercadoPago {
+    width: 250px; }
+  .titulo__mercadoPago {
+    margin-top: 60px; }
+  .titulo__local {
+    font-size: 20px; }
+  .titulo__pagos {
+    padding-bottom: 20px; }
+  .titulo__transferencia {
+    color: darkblue; }
+  .titulo__mercadoPago {
+    color: darkblue; }
+  .tarjetaTexto {
+    color: black;
+    font-size: 20px; }
+  .textoCard {
+    font-size: 20px; }
+  .tarjeta {
+    background-image: linear-gradient(to top, grey, white);
+    margin-left: 10px; }
+  .card {
+    background-image: linear-gradient(to top, grey, white);
+    margin-top: 10px;
+    margin-left: 10px; }
+  .logo__transferencia {
+    height: 150px;
+    width: 150px; }
+  .mapa__local {
+    height: 200px;
+    width: 200px;
+    margin-right: 100px; }
+  .transition {
+    width: 150px;
+    transition: all 2s; }
+  .transition:hover {
+    width: 250px; }
+  .transition2 {
+    width: 150px;
+    transition: all 2s; }
+  .transition2:hover {
+    width: 250px; }
+  img.transition3 {
+    width: 150px;
+    transition: all 2s; }
+  img.transition3:hover {
+    width: 250px; }
+  img.transition4 {
+    transition: all 2s; }
+  img.transition4:hover {
+    width: 250px; } }
+
+@media only screen and (max-width: 768px) {
+  .frecuente {
+    font-size: 27px;
+    color: darkblue; }
+  .pie_titulo {
+    font-size: 24px; }
+  textarea {
+    width: 227px; }
+  .pregunta {
+    text-decoration: underline 5px black;
+    font-style: italic;
+    font-size: 20px; }
+  .respuesta {
+    list-style: none;
+    font-size: 15px; }
+  .cuadro_duda {
+    background-color: yellow;
+    width: 322px;
+    text-align: center; }
+  .duda {
+    padding-top: 50px;
+    font-size: 29px; }
+  .aceptarO {
+    color: black; } }
+
+.frecuente {
+  font-size: 30px;
+  color: darkblue; }
+
+.pregunta {
+  text-decoration: underline 5px black;
+  font-style: italic; }
+
+.respuesta {
+  list-style: none; }
+
+.cuadro_duda {
+  background-color: yellow;
+  margin-right: 750px;
+  text-align: center;
+  margin-left: 250px; }
+
+.duda {
+  padding-top: 50px; }
+
+.aceptarO {
+  color: black; }
+
+@media only screen and (max-width: 768px) {
+  h2.titulo__explicacion {
+    font-size: 30px; }
+  .texto_explicacion {
+    font-size: 12px;
+    font-style: italic; }
+  iframe.video__presentacion {
+    border: 5px outset darkblue;
+    width: 363px; }
+  img.imagen__reparacion {
+    width: 230px; }
+  h2.titulo__video {
+    font-size: 27px; }
+  .card {
+    width: 19rem; } }
+
+.titulo__explicacion {
+  font-size: 60px; }
+
+.texto_explicacion {
+  font-style: italic; }
+
+iframe.video__presentacion {
+  border: 30px outset darkblue;
+  margin-bottom: 30px; }
+
+img.imagen__reparacion {
+  width: 850px; }
+
+.titulo__video {
+  grid-area: titulo__video;
+  margin-top: 152px; }
+
+.video__presentacion {
+  grid-area: video__presentacion; }
+
+.titulo__video {
+  font-size: 50px;
+  text-decoration: underline blue; }
+
+.car {
+  padding-right: 20px; }
+
+* {
+  font-family: 'Merriweather Sans', sans-serif; }
+
+@media only screen and (min-width: 1024px) {
+  div.logo {
+    height: 15px; }
+  .indexEstilo {
+    display: grid;
+    grid-template-areas: "header" "contenido" "footer";
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto;
+    overflow-x: hidden; }
+  .header {
+    grid-area: header; }
+  .footer {
+    grid-area: footer; }
+  .contenido {
+    grid-area: contenido; }
+  .logo__pagina {
+    width: 236px;
+    height: 230px; }
+  /*modifica en todas las views*/
+  div.barra_navegacion {
+    max-width: 900px;
+    background-color: grey;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-left: 450px; }
+  /*modifica en todas las views*/
+  .menu_horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+  /*modifica en todas las views*/
+  .menu_horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none; }
+  /*modifica en todas las views*/
+  .menu_horizontal > li:hover {
+    background-color: black; }
+  /*modifica en todas las views*/
+  .menu_vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5); }
+  /*modifica en todas las views*/
+  .menu_horizontal li:hover .menu_vertical {
+    display: block; }
+  /*modifica en todas las views*/
+  .menu_vertical li:hover {
+    background-color: red; }
+  /*modifica en todas las views*/
+  .menu_vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none; }
+  /*FIN GRID PARA TODAS LAS VIEWS*/
+  .contenido3 {
+    display: grid;
+    grid-template-areas: "tabla titulo_note" "tabla carta";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px; }
+  .tabla {
+    grid-area: tabla;
+    margin-bottom: 163px;
+    font-size: 20px;
+    color: black;
+    border: 20px inset sandybrown; }
+  .carta {
+    grid-area: carta;
+    background-image: linear-gradient(to bottom, greenyellow, whitesmoke);
+    margin-bottom: 50px;
+    margin-right: 50px; }
+  .titulo_note {
+    grid-area: titulo_note;
+    font-size: 35px;
+    padding-left: 250px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    color: greenyellow;
+    text-decoration: underline black solid; }
+  .pie_pagina3 {
+    display: grid;
+    grid-template-areas: "imagen_whats3 titulo__footer3 titulo__footer3" "texto__contacto3 texto__contacto3 texto__contacto3";
+    grid-template-columns: 250px 350px;
+    grid-template-rows: auto auto; }
+  .imagen_whats3 {
+    grid-area: imagen_whats3; }
+  .texto__contacto3 {
+    grid-area: texto__contacto3;
+    margin-left: 710px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: grey; }
+  .titulo__footer3 {
+    grid-area: titulo__footer3;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-right: 250px;
+    color: blue; }
+  .logo_whatsapp {
+    width: 250px; } }
+
+@media only screen and (max-width: 768px) {
+  .indexEstilo {
+    display: grid;
+    grid-template-areas: "header" "contenido" "footer";
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto; }
+  .header {
+    grid-area: header; }
+  .footer {
+    grid-area: footer; }
+  .contenido {
+    grid-area: contenido; }
+  .header {
+    display: grid;
+    grid-template-areas: "logo" "barra_navegacion";
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  .logo {
+    grid-area: logo; }
+  .logo__pagina {
+    height: auto;
+    width: 64px; }
+  .barra_navegacion {
+    grid-area: barra_navegacion; }
+  /*modifica en todas las views*/
+  div.barra_navegacion {
+    max-width: 319px;
+    background-color: grey;
+    font-size: 10px;
+    margin-left: 27px; }
+  /*modifica en todas las views*/
+  .menu_horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px; }
+  /*modifica en todas las views*/
+  .menu_horizontal > li > a {
+    display: block;
+    color: white;
+    text-decoration: none; }
+  /*modifica en todas las views*/
+  .menu_horizontal > li:hover {
+    background-color: black; }
+  /*modifica en todas las views*/
+  .menu_vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.5); }
+  /*modifica en todas las views*/
+  .menu_horizontal li:hover .menu_vertical {
+    display: block; }
+  /*modifica en todas las views*/
+  .menu_vertical li:hover {
+    background-color: red; }
+  /*modifica en todas las views*/
+  .menu_vertical li a {
+    display: none;
+    color: white;
+    text-decoration: none; }
+  .contenido3 {
+    display: grid;
+    grid-template-areas: "tabla" "titulo_note" "carta";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto; }
+  .tabla {
+    grid-area: tabla;
+    margin-bottom: 42px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: black;
+    border: 20px inset sandybrown;
+    margin-right: 10px; }
+  .carta {
+    grid-area: carta;
+    background-image: linear-gradient(to bottom, greenyellow, whitesmoke);
+    font-size: 13px;
+    width: 20px; }
+  .titulo_note {
+    grid-area: titulo_note;
+    color: greenyellow;
+    text-decoration: underline black solid; }
+  .pie_pagina3 {
+    display: grid;
+    grid-template-areas: "titulo__footer3" "imagen_whats3" "texto__contacto3";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto; }
+  .imagen_whats3 {
+    grid-area: imagen_whats3; }
+  .imagen_whats3 {
+    grid-area: imagen_whats3; }
+  .texto__contacto3 {
+    grid-area: texto__contacto3;
+    padding-left: 10px;
+    padding-top: 100px;
+    color: grey; }
+  .titulo__footer3 {
+    grid-area: titulo__footer3;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: blue; }
+  .logo_whatsapp {
+    width: 150px; } }
+
+.pregunta1 {
+  color: red; }
+
+.pregunta2 {
+  color: red; }
+
+.pregunta3 {
+  color: red; }
+
+.pregunta4 {
+  color: red; }
+
+.pregunta5 {
+  color: red; }
+
+.respuesta1 {
+  color: darkblue; }
+
+.respuesta2 {
+  color: darkblue; }
+
+.respuesta3 {
+  color: darkblue; }
+
+.respuesta4 {
+  color: darkblue; }
+
+.respuesta5 {
+  color: darkblue; }

@@ -1,0 +1,45 @@
+// vista pc footer para las pestañas index,nosotros,contacto,dudas//
+
+.titulo__footer{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 50px;
+	color: $colorTituloPiePag;
+}
+.texto__contacto{
+	padding-top: 100px;
+	color:$colorPiePag;
+}
+.logo_whatsapp2{
+	width: 250px;
+}
+
+
+//fin vista pc footer para las pestañas index,nosotros,contacto,dudas//
+
+
+
+
+
+// vista mobile footer para las pestañas index,nosotros,contacto,dudas//
+
+@media only screen and (max-width: 768px){
+	.titulo__footer{
+		text-align: center;
+		margin-top: 40px;
+		font-size: 30px;
+		color: $colorTituloPiePag;
+	}
+	.texto__contacto{
+		padding-top: 100px;
+		color:$colorPiePag;
+		padding-left:10px;
+	}
+	.logo_whatsapp2{
+		width: 150px;
+	}
+
+}
+
+
+//fin vista mobile footer para las pestañas index,nosotros,contacto,dudas//

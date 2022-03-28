@@ -1,0 +1,34 @@
+// vista mobile//
+
+@media only screen and (max-width: 768px){
+	h2.titulo__explicacion{
+		font-size: 30px;	
+	}
+
+	.texto_explicacion{
+		font-size: 12px;
+		font-style: italic;
+	}
+	
+
+	iframe.video__presentacion{
+		border: 5px outset darkblue;
+		width:363px;
+	}
+
+	img.imagen__reparacion{
+		width: 230px;
+	}
+
+	h2.titulo__video{
+		font-size: 27px;
+	}
+
+	.card{
+		width: 19rem;
+	}
+
+
+}
+
+//fin vista mobile//

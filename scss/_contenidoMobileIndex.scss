@@ -1,0 +1,53 @@
+// vista mobile//
+
+@media only screen and (max-width: 768px){
+	.conteiner{
+		overflow-x:hidden;
+	}
+
+	.img-fluid{
+		width: 150px;
+	}
+
+	.texto_inicio{
+		font-size: 11px;
+		color: $colorLetrasBody;
+		padding-left:0px;
+			
+	}
+	
+
+
+	.imagen_ppp{
+		width:150px;
+		padding-left: 5px;
+	}
+
+	.cuadro{
+		padding-left: 50px;
+		margin-bottom: 80px;
+	}
+
+	div{
+		h4{
+			color: $colorOpinionN;
+		}
+	}
+
+	div{
+		ul{
+			li{
+				list-style:none;
+				font-size: 10px;
+			}
+		}
+	}
+
+	.body{
+		overflow-x:hidden;
+	}
+
+
+}
+
+//fin vista mobile//

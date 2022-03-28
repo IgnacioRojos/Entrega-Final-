@@ -1,0 +1,38 @@
+// vista pc//
+
+.titulo__explicacion{
+	font-size:60px;
+}
+.texto_explicacion{
+	font-style: italic;
+}
+
+iframe.video__presentacion{
+	border: 30px outset darkblue;
+	margin-bottom: 30px;
+
+}
+
+img.imagen__reparacion{
+	width: 850px;
+}
+
+.titulo__video{
+	grid-area: titulo__video;
+	margin-top: 152px;
+}
+.video__presentacion{
+	grid-area: video__presentacion;
+}
+
+.titulo__video{
+	font-size: 50px;
+	text-decoration: underline blue;
+}
+
+
+.car{
+	padding-right:20px;
+}
+
+//fin vista pc//
